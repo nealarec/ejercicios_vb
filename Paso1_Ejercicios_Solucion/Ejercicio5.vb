@@ -10,8 +10,8 @@
             Dim FinalDistance = CalculateDistance(FinalTime)
 
             If FinalDistance >= 0 And FinalDistance <= ValDistance Then
-                ResTime.Text = FinalTime.ToString() + " h"
-                ResDistance.Text = FinalDistance.ToString() + " Km"
+                ResTime.Text = FinalTime.ToString("F2") + " h"
+                ResDistance.Text = FinalDistance.ToString("F2") + " Km"
             Else
                 ResTime.Text = "Los moviles no se encuentran"
                 ResDistance.Text = "Los moviles no se encuentran"
@@ -26,28 +26,28 @@
     ''' <returns></returns>
     Private Function CaptureValues() As Boolean
         Try
-            ValDistance = Double.Parse(Distance.Text)
+            ValDistance = Double.Parse(Distance.Text.Replace(".", ","))
         Catch ex As FormatException
             MessageBox.Show("La distancia debe ser un número", "Error de Formato")
             Return False
         End Try
 
         Try
-            ValVelM1 = Double.Parse(VelMovil1.Text)
+            ValVelM1 = Double.Parse(VelMovil1.Text.Replace(".", ","))
         Catch ex As FormatException
             MessageBox.Show("La velocidad del móvil 1 debe ser un número", "Error de Formato")
             Return False
         End Try
 
         Try
-            ValVelM2 = Double.Parse(VelMovil2.Text)
+            ValVelM2 = Double.Parse(VelMovil2.Text.Replace(".", ","))
         Catch ex As FormatException
             MessageBox.Show("La velocidad del móvil 2 debe ser un número", "Error de Formato")
             Return False
         End Try
 
         Try
-            ValDeltaTime = Double.Parse(DeltaTime.Text)
+            ValDeltaTime = Double.Parse(DeltaTime.Text.Replace(".", ","))
         Catch ex As FormatException
             MessageBox.Show("El cambio de tiempo debe ser un número", "Error de Formato")
             Return False
