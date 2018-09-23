@@ -74,6 +74,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicio10.Designer.vb">
+      <DependentUpon>Ejercicio10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio10.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio11.Designer.vb">
+      <DependentUpon>Ejercicio11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio11.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Ejercicio3.Designer.vb">
       <DependentUpon>Ejercicio3.vb</DependentUpon>
     </Compile>
@@ -116,6 +128,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Ejercicio10.resx">
+      <DependentUpon>Ejercicio10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio11.resx">
+      <DependentUpon>Ejercicio11.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio3.resx">
       <DependentUpon>Ejercicio3.vb</DependentUpon>
     </EmbeddedResource>

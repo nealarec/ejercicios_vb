@@ -29,6 +29,8 @@ Partial Class MainForm
         Me.Ejercicio3Button = New System.Windows.Forms.ToolStripMenuItem()
         Me.Ejercicio5Button = New System.Windows.Forms.ToolStripMenuItem()
         Me.MainPanel = New System.Windows.Forms.Panel()
+        Me.Ejercicio10Button = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Ejercicio11Button = New System.Windows.Forms.ToolStripMenuItem()
         Me.MainMenu.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -49,7 +51,7 @@ Partial Class MainForm
         '
         'EjerciciosToolStripMenuItem
         '
-        Me.EjerciciosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Ejercicio3Button, Me.Ejercicio5Button})
+        Me.EjerciciosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Ejercicio3Button, Me.Ejercicio5Button, Me.Ejercicio10Button, Me.Ejercicio11Button})
         Me.EjerciciosToolStripMenuItem.Name = "EjerciciosToolStripMenuItem"
         Me.EjerciciosToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
         Me.EjerciciosToolStripMenuItem.Text = "Ejercicios"
@@ -73,6 +75,18 @@ Partial Class MainForm
         Me.MainPanel.Name = "MainPanel"
         Me.MainPanel.Size = New System.Drawing.Size(730, 393)
         Me.MainPanel.TabIndex = 1
+        '
+        'Ejercicio10Button
+        '
+        Me.Ejercicio10Button.Name = "Ejercicio10Button"
+        Me.Ejercicio10Button.Size = New System.Drawing.Size(180, 22)
+        Me.Ejercicio10Button.Text = "Ejercicio 10"
+        '
+        'Ejercicio11Button
+        '
+        Me.Ejercicio11Button.Name = "Ejercicio11Button"
+        Me.Ejercicio11Button.Size = New System.Drawing.Size(180, 22)
+        Me.Ejercicio11Button.Text = "Ejercicio 11"
         '
         'MainForm
         '
@@ -98,4 +112,6 @@ Partial Class MainForm
     Friend WithEvents Ejercicio5Button As ToolStripMenuItem
     Friend WithEvents InicioButton As ToolStripMenuItem
     Friend WithEvents MainPanel As Panel
+    Friend WithEvents Ejercicio10Button As ToolStripMenuItem
+    Friend WithEvents Ejercicio11Button As ToolStripMenuItem
 End Class
