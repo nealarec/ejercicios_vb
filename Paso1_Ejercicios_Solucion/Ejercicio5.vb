@@ -73,4 +73,11 @@
     Private Function CalculateDistance(ResultTime As Double) As Double
         Return ValVelM1 * (ResultTime - ValDeltaTime)
     End Function
+
+    Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
+        VelMovil1.Text = ""
+        VelMovil2.Text = ""
+        Distance.Text = ""
+        DeltaTime.Text = ""
+    End Sub
 End Class

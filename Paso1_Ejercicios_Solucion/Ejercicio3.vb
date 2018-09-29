@@ -32,4 +32,11 @@
         resultado.Text = Math.Sqrt(Math.Pow(val_bx - val_ax, 2) + Math.Pow(val_by - val_ay, 2)).ToString("F2")
 
     End Sub
+
+    Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
+        ax.Text = ""
+        ay.Text = ""
+        bx.Text = ""
+        by.Text = ""
+    End Sub
 End Class

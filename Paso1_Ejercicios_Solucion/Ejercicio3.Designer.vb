@@ -23,6 +23,7 @@ Partial Class Ejercicio3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.resultado = New System.Windows.Forms.Label()
@@ -37,7 +38,7 @@ Partial Class Ejercicio3
         Me.Label2 = New System.Windows.Forms.Label()
         Me.ay = New System.Windows.Forms.TextBox()
         Me.ax = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
+        Me.ClearButton = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -47,6 +48,7 @@ Partial Class Ejercicio3
         'Panel1
         '
         Me.Panel1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Panel1.Controls.Add(Me.ClearButton)
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.GroupBox3)
@@ -59,6 +61,17 @@ Partial Class Ejercicio3
         Me.Panel1.Padding = New System.Windows.Forms.Padding(10)
         Me.Panel1.Size = New System.Drawing.Size(366, 270)
         Me.Panel1.TabIndex = 0
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(66, 42)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(235, 30)
+        Me.Label6.TabIndex = 7
+        Me.Label6.Text = "Calcule la distancia entre los puntos A y B " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "que se encuentran en un plano" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label5
         '
@@ -98,9 +111,9 @@ Partial Class Ejercicio3
         Me.Calcular.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Calcular.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Calcular.Location = New System.Drawing.Point(98, 174)
+        Me.Calcular.Location = New System.Drawing.Point(15, 174)
         Me.Calcular.Name = "Calcular"
-        Me.Calcular.Size = New System.Drawing.Size(171, 28)
+        Me.Calcular.Size = New System.Drawing.Size(160, 28)
         Me.Calcular.TabIndex = 4
         Me.Calcular.Text = "Calcular"
         Me.Calcular.UseVisualStyleBackColor = True
@@ -128,7 +141,6 @@ Partial Class Ejercicio3
         Me.by.Name = "by"
         Me.by.Size = New System.Drawing.Size(131, 20)
         Me.by.TabIndex = 7
-        Me.by.Text = "0"
         '
         'bx
         '
@@ -137,7 +149,6 @@ Partial Class Ejercicio3
         Me.bx.Name = "bx"
         Me.bx.Size = New System.Drawing.Size(131, 20)
         Me.bx.TabIndex = 6
-        Me.bx.Text = "0"
         '
         'Label3
         '
@@ -204,7 +215,6 @@ Partial Class Ejercicio3
         Me.ay.Name = "ay"
         Me.ay.Size = New System.Drawing.Size(123, 20)
         Me.ay.TabIndex = 3
-        Me.ay.Text = "0"
         '
         'ax
         '
@@ -213,18 +223,18 @@ Partial Class Ejercicio3
         Me.ax.Name = "ax"
         Me.ax.Size = New System.Drawing.Size(123, 20)
         Me.ax.TabIndex = 2
-        Me.ax.Text = "0"
         '
-        'Label6
+        'ClearButton
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(66, 42)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(235, 30)
-        Me.Label6.TabIndex = 7
-        Me.Label6.Text = "Calcule la distancia entre los puntos A y B " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "que se encuentran en un plano" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ClearButton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ClearButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClearButton.Location = New System.Drawing.Point(181, 174)
+        Me.ClearButton.Name = "ClearButton"
+        Me.ClearButton.Size = New System.Drawing.Size(171, 28)
+        Me.ClearButton.TabIndex = 8
+        Me.ClearButton.Text = "Limpiar"
+        Me.ClearButton.UseVisualStyleBackColor = True
         '
         'Ejercicio3
         '
@@ -262,4 +272,5 @@ Partial Class Ejercicio3
     Friend WithEvents Calcular As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents ClearButton As Button
 End Class

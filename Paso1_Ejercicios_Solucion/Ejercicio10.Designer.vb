@@ -33,6 +33,7 @@ Partial Class Ejercicio10
         Me.ResultLabel = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.ClearButton = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -93,7 +94,7 @@ Partial Class Ejercicio10
         'Calcular
         '
         Me.Calcular.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Calcular.Location = New System.Drawing.Point(128, 165)
+        Me.Calcular.Location = New System.Drawing.Point(64, 165)
         Me.Calcular.Name = "Calcular"
         Me.Calcular.Size = New System.Drawing.Size(119, 30)
         Me.Calcular.TabIndex = 1
@@ -135,6 +136,7 @@ Partial Class Ejercicio10
         'Panel1
         '
         Me.Panel1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Panel1.Controls.Add(Me.ClearButton)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.GroupBox1)
         Me.Panel1.Controls.Add(Me.GroupBox2)
@@ -150,10 +152,20 @@ Partial Class Ejercicio10
         Me.Label5.Font = New System.Drawing.Font("Monotype Corsiva", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(45, 15)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(285, 56)
+        Me.Label5.Size = New System.Drawing.Size(300, 56)
         Me.Label5.TabIndex = 7
-        Me.Label5.Text = "Ayar la velocidad inical para" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "alcanzar la altura maxima "
+        Me.Label5.Text = "Hallar la velocidad inical para" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "alcanzar la altura maxima "
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'ClearButton
+        '
+        Me.ClearButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClearButton.Location = New System.Drawing.Point(192, 165)
+        Me.ClearButton.Name = "ClearButton"
+        Me.ClearButton.Size = New System.Drawing.Size(119, 30)
+        Me.ClearButton.TabIndex = 8
+        Me.ClearButton.Text = "Limpiar"
+        Me.ClearButton.UseVisualStyleBackColor = True
         '
         'Ejercicio10
         '
@@ -183,4 +195,5 @@ Partial Class Ejercicio10
     Friend WithEvents ResultLabel As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label5 As Label
+    Friend WithEvents ClearButton As Button
 End Class

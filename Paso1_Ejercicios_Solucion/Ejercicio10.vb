@@ -30,4 +30,9 @@
     Private Function CalculateInitalSpeed() As Double
         Return Math.Sqrt(2 * GravityVal * MaxHeightVal)
     End Function
+
+    Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
+        Gravity.Text = "9.78"
+        MaxHeight.Text = ""
+    End Sub
 End Class

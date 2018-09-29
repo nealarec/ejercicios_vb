@@ -38,9 +38,10 @@ Partial Class Ejercicio5
         Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ClearButton = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -63,7 +64,6 @@ Partial Class Ejercicio5
         Me.Distance.Name = "Distance"
         Me.Distance.Size = New System.Drawing.Size(100, 20)
         Me.Distance.TabIndex = 1
-        Me.Distance.Text = "0"
         '
         'Label2
         '
@@ -82,7 +82,6 @@ Partial Class Ejercicio5
         Me.VelMovil1.Name = "VelMovil1"
         Me.VelMovil1.Size = New System.Drawing.Size(100, 20)
         Me.VelMovil1.TabIndex = 2
-        Me.VelMovil1.Text = "0"
         '
         'VelMovil2
         '
@@ -91,7 +90,6 @@ Partial Class Ejercicio5
         Me.VelMovil2.Name = "VelMovil2"
         Me.VelMovil2.Size = New System.Drawing.Size(100, 20)
         Me.VelMovil2.TabIndex = 3
-        Me.VelMovil2.Text = "0"
         '
         'Label3
         '
@@ -111,7 +109,6 @@ Partial Class Ejercicio5
         Me.DeltaTime.Name = "DeltaTime"
         Me.DeltaTime.Size = New System.Drawing.Size(100, 20)
         Me.DeltaTime.TabIndex = 5
-        Me.DeltaTime.Text = "0"
         '
         'Label4
         '
@@ -146,7 +143,7 @@ Partial Class Ejercicio5
         'Calcular
         '
         Me.Calcular.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Calcular.Location = New System.Drawing.Point(193, 207)
+        Me.Calcular.Location = New System.Drawing.Point(53, 207)
         Me.Calcular.Name = "Calcular"
         Me.Calcular.Size = New System.Drawing.Size(164, 29)
         Me.Calcular.TabIndex = 8
@@ -206,16 +203,6 @@ Partial Class Ejercicio5
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Resultado"
         '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(11, 26)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(246, 18)
-        Me.Label7.TabIndex = 8
-        Me.Label7.Text = "El tiempo que tardan en encontrarse"
-        '
         'Label9
         '
         Me.Label9.AutoSize = True
@@ -226,9 +213,20 @@ Partial Class Ejercicio5
         Me.Label9.TabIndex = 10
         Me.Label9.Text = "La posición donde se encuentran"
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(11, 26)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(246, 18)
+        Me.Label7.TabIndex = 8
+        Me.Label7.Text = "El tiempo que tardan en encontrarse"
+        '
         'Panel1
         '
         Me.Panel1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Panel1.Controls.Add(Me.ClearButton)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.GroupBox2)
         Me.Panel1.Controls.Add(Me.Calcular)
@@ -238,6 +236,16 @@ Partial Class Ejercicio5
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(551, 369)
         Me.Panel1.TabIndex = 13
+        '
+        'ClearButton
+        '
+        Me.ClearButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClearButton.Location = New System.Drawing.Point(333, 207)
+        Me.ClearButton.Name = "ClearButton"
+        Me.ClearButton.Size = New System.Drawing.Size(164, 29)
+        Me.ClearButton.TabIndex = 13
+        Me.ClearButton.Text = "Limpiar"
+        Me.ClearButton.UseVisualStyleBackColor = True
         '
         'Ejercicio5
         '
@@ -274,4 +282,5 @@ Partial Class Ejercicio5
     Friend WithEvents Label7 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents ClearButton As Button
 End Class

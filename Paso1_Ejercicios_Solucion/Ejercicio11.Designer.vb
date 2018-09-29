@@ -31,12 +31,12 @@ Partial Class Ejercicio11
         Me.DayLabel = New System.Windows.Forms.Label()
         Me.Calc = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel1.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'BirthDate
@@ -64,7 +64,7 @@ Partial Class Ejercicio11
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(49, 16)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Meces"
+        Me.Label2.Text = "Meses"
         '
         'Label3
         '
@@ -124,6 +124,27 @@ Partial Class Ejercicio11
         Me.Panel1.Size = New System.Drawing.Size(330, 222)
         Me.Panel1.TabIndex = 9
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Monotype Corsiva", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(61, 12)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(208, 28)
+        Me.Label5.TabIndex = 11
+        Me.Label5.Text = "Diferencia de tiempo"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.BirthDate)
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(65, 43)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(200, 50)
+        Me.GroupBox2.TabIndex = 10
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Fecha de nacimiento"
+        '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.Label1)
@@ -140,27 +161,6 @@ Partial Class Ejercicio11
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Resultado"
         '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.BirthDate)
-        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(65, 43)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(200, 50)
-        Me.GroupBox2.TabIndex = 10
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Fecha de nacimiento"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Monotype Corsiva", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(61, 12)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(208, 28)
-        Me.Label5.TabIndex = 11
-        Me.Label5.Text = "Diferencia de tiempo"
-        '
         'Ejercicio11
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -170,9 +170,9 @@ Partial Class Ejercicio11
         Me.Size = New System.Drawing.Size(658, 374)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
