@@ -1,4 +1,4 @@
-﻿Public Class Ejercicio5
+﻿Public Class Ejercicio5_Nelson
     Private ValDistance As Double
     Private ValVelM1 As Double
     Private ValVelM2 As Double

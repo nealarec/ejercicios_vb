@@ -1,4 +1,4 @@
-﻿Public Class Ejercicio11
+﻿Public Class Ejercicio11_Nelson
     Private Sub Calc_Click(sender As Object, e As EventArgs) Handles Calc.Click
         Dim birth As Date = BirthDate.Value
         Dim diff As TimeSpan = Now - BirthDate.Value.Date

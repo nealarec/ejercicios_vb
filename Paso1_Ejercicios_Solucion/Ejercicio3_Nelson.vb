@@ -1,4 +1,4 @@
-﻿Public Class Ejercicio3
+﻿Public Class Ejercicio3_Nelson
     Private Sub Calcular_Click(sender As Object, e As EventArgs) Handles Calcular.Click
         Dim val_ax As Double, val_ay As Double, val_bx As Double, val_by As Double
         Try

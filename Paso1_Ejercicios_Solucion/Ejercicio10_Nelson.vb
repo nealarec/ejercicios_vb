@@ -1,4 +1,4 @@
-﻿Public Class Ejercicio10
+﻿Public Class Ejercicio10_Nelson
     Private GravityVal As Double
     Private MaxHeightVal As Double
 

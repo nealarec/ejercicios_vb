@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Ejercicio3
+Partial Class Ejercicio3_Nelson
     Inherits System.Windows.Forms.UserControl
 
     'UserControl reemplaza a Dispose para limpiar la lista de componentes.
@@ -23,6 +23,7 @@ Partial Class Ejercicio3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ClearButton = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
@@ -38,7 +39,6 @@ Partial Class Ejercicio3
         Me.Label2 = New System.Windows.Forms.Label()
         Me.ay = New System.Windows.Forms.TextBox()
         Me.ax = New System.Windows.Forms.TextBox()
-        Me.ClearButton = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -55,12 +55,24 @@ Partial Class Ejercicio3
         Me.Panel1.Controls.Add(Me.Calcular)
         Me.Panel1.Controls.Add(Me.GroupBox2)
         Me.Panel1.Controls.Add(Me.GroupBox1)
-        Me.Panel1.Location = New System.Drawing.Point(210, 89)
+        Me.Panel1.Location = New System.Drawing.Point(211, 90)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(5)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Padding = New System.Windows.Forms.Padding(10)
         Me.Panel1.Size = New System.Drawing.Size(366, 270)
         Me.Panel1.TabIndex = 0
+        '
+        'ClearButton
+        '
+        Me.ClearButton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ClearButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClearButton.Location = New System.Drawing.Point(181, 174)
+        Me.ClearButton.Name = "ClearButton"
+        Me.ClearButton.Size = New System.Drawing.Size(171, 28)
+        Me.ClearButton.TabIndex = 8
+        Me.ClearButton.Text = "Limpiar"
+        Me.ClearButton.UseVisualStyleBackColor = True
         '
         'Label6
         '
@@ -224,26 +236,13 @@ Partial Class Ejercicio3
         Me.ax.Size = New System.Drawing.Size(123, 20)
         Me.ax.TabIndex = 2
         '
-        'ClearButton
-        '
-        Me.ClearButton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ClearButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ClearButton.Location = New System.Drawing.Point(181, 174)
-        Me.ClearButton.Name = "ClearButton"
-        Me.ClearButton.Size = New System.Drawing.Size(171, 28)
-        Me.ClearButton.TabIndex = 8
-        Me.ClearButton.Text = "Limpiar"
-        Me.ClearButton.UseVisualStyleBackColor = True
-        '
         'Ejercicio3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Ejercicio3"
-        Me.Size = New System.Drawing.Size(769, 448)
+        Me.Size = New System.Drawing.Size(771, 450)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)

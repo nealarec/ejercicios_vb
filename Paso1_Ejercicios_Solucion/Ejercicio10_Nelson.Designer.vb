@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Ejercicio10
+Partial Class Ejercicio10_Nelson
     Inherits System.Windows.Forms.UserControl
 
     'UserControl reemplaza a Dispose para limpiar la lista de componentes.
@@ -32,8 +32,8 @@ Partial Class Ejercicio10
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.ResultLabel = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.ClearButton = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -60,7 +60,6 @@ Partial Class Ejercicio10
         Me.MaxHeight.Name = "MaxHeight"
         Me.MaxHeight.Size = New System.Drawing.Size(115, 20)
         Me.MaxHeight.TabIndex = 3
-        Me.MaxHeight.Text = "0"
         '
         'Gravity
         '
@@ -69,7 +68,7 @@ Partial Class Ejercicio10
         Me.Gravity.Name = "Gravity"
         Me.Gravity.Size = New System.Drawing.Size(115, 20)
         Me.Gravity.TabIndex = 2
-        Me.Gravity.Text = " 9.78 "
+        Me.Gravity.Text = "9.78"
         '
         'Label2
         '
@@ -146,6 +145,16 @@ Partial Class Ejercicio10
         Me.Panel1.Size = New System.Drawing.Size(375, 268)
         Me.Panel1.TabIndex = 4
         '
+        'ClearButton
+        '
+        Me.ClearButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClearButton.Location = New System.Drawing.Point(192, 165)
+        Me.ClearButton.Name = "ClearButton"
+        Me.ClearButton.Size = New System.Drawing.Size(119, 30)
+        Me.ClearButton.TabIndex = 8
+        Me.ClearButton.Text = "Limpiar"
+        Me.ClearButton.UseVisualStyleBackColor = True
+        '
         'Label5
         '
         Me.Label5.AutoSize = True
@@ -156,16 +165,6 @@ Partial Class Ejercicio10
         Me.Label5.TabIndex = 7
         Me.Label5.Text = "Hallar la velocidad inical para" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "alcanzar la altura maxima "
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'ClearButton
-        '
-        Me.ClearButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ClearButton.Location = New System.Drawing.Point(192, 165)
-        Me.ClearButton.Name = "ClearButton"
-        Me.ClearButton.Size = New System.Drawing.Size(119, 30)
-        Me.ClearButton.TabIndex = 8
-        Me.ClearButton.Text = "Limpiar"
-        Me.ClearButton.UseVisualStyleBackColor = True
         '
         'Ejercicio10
         '

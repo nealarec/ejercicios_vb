@@ -11,9 +11,10 @@
     <AssemblyName>Paso1_Ejercicios_Solucion</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -74,28 +75,112 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ejercicio10.Designer.vb">
-      <DependentUpon>Ejercicio10.vb</DependentUpon>
+    <Compile Include="Ejercicio10_Andres.Designer.vb">
+      <DependentUpon>Ejercicio10_Andres.vb</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicio10.vb">
+    <Compile Include="Ejercicio10_Andres.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Ejercicio11.Designer.vb">
-      <DependentUpon>Ejercicio11.vb</DependentUpon>
+    <Compile Include="Ejercicio11_Andres.Designer.vb">
+      <DependentUpon>Ejercicio11_Andres.vb</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicio11.vb">
+    <Compile Include="Ejercicio11_Andres.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Ejercicio3.Designer.vb">
-      <DependentUpon>Ejercicio3.vb</DependentUpon>
+    <Compile Include="Ejercicio12_Eddie.Designer.vb">
+      <DependentUpon>Ejercicio12_Eddie.vb</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicio3.vb">
+    <Compile Include="Ejercicio12_Eddie.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Ejercicio5.Designer.vb">
-      <DependentUpon>Ejercicio5.vb</DependentUpon>
+    <Compile Include="Ejercicio1_Alex.Designer.vb">
+      <DependentUpon>Ejercicio1_Alex.vb</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicio5.vb">
+    <Compile Include="Ejercicio1_Alex.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio1_Miguel.Designer.vb">
+      <DependentUpon>Ejercicio1_Miguel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio1_Miguel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio10_Nelson.Designer.vb">
+      <DependentUpon>Ejercicio10_Nelson.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio10_Nelson.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio11_Nelson.Designer.vb">
+      <DependentUpon>Ejercicio11_Nelson.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio11_Nelson.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio2_Alex.Designer.vb">
+      <DependentUpon>Ejercicio2_Alex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio2_Alex.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio2_Miguel.Designer.vb">
+      <DependentUpon>Ejercicio2_Miguel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio2_Miguel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio3_Nelson.Designer.vb">
+      <DependentUpon>Ejercicio3_Nelson.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio3_Nelson.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio4_Alex.Designer.vb">
+      <DependentUpon>Ejercicio4_Alex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio4_Alex.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio5_Nelson.Designer.vb">
+      <DependentUpon>Ejercicio5_Nelson.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio5_Nelson.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio6_Alex.Designer.vb">
+      <DependentUpon>Ejercicio6_Alex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio6_Alex.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio6_Eddie.Designer.vb">
+      <DependentUpon>Ejercicio6_Eddie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio6_Eddie.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio7_Eddie.Designer.vb">
+      <DependentUpon>Ejercicio7_Eddie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio7_Eddie.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio8_Andres.Designer.vb">
+      <DependentUpon>Ejercicio8_Andres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio8_Andres.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio8_Eddie.Designer.vb">
+      <DependentUpon>Ejercicio8_Eddie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio8_Eddie.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicio9_Andres.Designer.vb">
+      <DependentUpon>Ejercicio9_Andres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio9_Andres.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Inicio.Designer.vb">
@@ -128,17 +213,59 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Ejercicio10.resx">
-      <DependentUpon>Ejercicio10.vb</DependentUpon>
+    <EmbeddedResource Include="Ejercicio10_Andres.resx">
+      <DependentUpon>Ejercicio10_Andres.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicio11.resx">
-      <DependentUpon>Ejercicio11.vb</DependentUpon>
+    <EmbeddedResource Include="Ejercicio11_Andres.resx">
+      <DependentUpon>Ejercicio11_Andres.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicio3.resx">
-      <DependentUpon>Ejercicio3.vb</DependentUpon>
+    <EmbeddedResource Include="Ejercicio12_Eddie.resx">
+      <DependentUpon>Ejercicio12_Eddie.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicio5.resx">
-      <DependentUpon>Ejercicio5.vb</DependentUpon>
+    <EmbeddedResource Include="Ejercicio1_Alex.resx">
+      <DependentUpon>Ejercicio1_Alex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio1_Miguel.resx">
+      <DependentUpon>Ejercicio1_Miguel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio10_Nelson.resx">
+      <DependentUpon>Ejercicio10_Nelson.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio11_Nelson.resx">
+      <DependentUpon>Ejercicio11_Nelson.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio2_Alex.resx">
+      <DependentUpon>Ejercicio2_Alex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio2_Miguel.resx">
+      <DependentUpon>Ejercicio2_Miguel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio3_Nelson.resx">
+      <DependentUpon>Ejercicio3_Nelson.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio4_Alex.resx">
+      <DependentUpon>Ejercicio4_Alex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio5_Nelson.resx">
+      <DependentUpon>Ejercicio5_Nelson.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio6_Alex.resx">
+      <DependentUpon>Ejercicio6_Alex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio6_Eddie.resx">
+      <DependentUpon>Ejercicio6_Eddie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio7_Eddie.resx">
+      <DependentUpon>Ejercicio7_Eddie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio8_Andres.resx">
+      <DependentUpon>Ejercicio8_Andres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio8_Eddie.resx">
+      <DependentUpon>Ejercicio8_Eddie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio9_Andres.resx">
+      <DependentUpon>Ejercicio9_Andres.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.vb</DependentUpon>
@@ -148,9 +275,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -164,6 +291,43 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuentos de los hermanos.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaintZaiya.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DragonZ.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
